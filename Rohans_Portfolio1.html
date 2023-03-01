@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan Pawar</title>
+    <link rel="icon" href="letter-r.svg">
+    <link rel="stylesheet" href="Rohans_Portfolio1.css" />
+    <script src="Rohans_Portfolio1.js"></script>
+  </head>
+  <body>
+    <!------------------------Home content----------------------->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="nav_name">Rohan.</p>
+          <ul>
+            <li><a class="link_selected" href="#header">Home</a></li>
+            <li><a class="links" href="#about">About</a></li>
+            <li><a class="links" href="#services">Services</a></li>
+            <li><a class="links" href="#portfolio">Portfolio</a></li>
+            <li><a class="links" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header_text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, I'm <br />
+            <span> Rohan Pawar </span> <br />
+            from Pune
+          </h1>
+        </div>
+        <img class="photo" src="black_background_photo.jpg" />
+      </div>
+    </div>
+    <!---------------------------about--------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="about_col1">
+          <h1>About Me</h1>
+          <br /><br />
+          <p>
+            Hello I'm Rohan Pawar from Pune, India. Currently pursuing my
+            undergraduate degree in <br />in Information Technology. I like to
+            explore different new technologies and learn them. With <br />
+            strong in aptitude, design and integration with exceptional
+            problem-solving and debugging skills.Looking to start career in reputed company driven by various
+            technologies
+          </p>
+          <br /><br />
+
+          <div class="tab_titles">
+            <p class="tab_links active_link" onclick="opentab('skills')">
+              <strong>Skills</strong>
+            </p>
+            <p class="tab_links" onclick="opentab('experience')"><strong>Experiece</strong></p>
+            <p class="tab_links" onclick="opentab('education')"><strong>Education</strong></p>
+          </div>
+
+          <br />
+          <div class="tab_contents active_tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing web/app interfaces</li>
+              <br />
+              <li><span>Web development</span><br />website development from basic to advance</li>
+              <br /> 
+              <li><span>App development</span><br />Android development</li>
+              <br>
+              <li><span>Coding languages</span><br>C,C++,Java,Python,CSS,HTML,JavaScript</li>
+            </ul>
+          </div>
+          <br />
+
+          <div class="tab_contents" id="experience">
+            <ul>
+              <li>Worked as a freelancer</li>
+              <br />
+              <li>Till now I dont have industrial experience</li>
+            </ul>
+          </div>
+          <br />
+
+          <div class="tab_contents" id="education">
+            <ul>
+              <li>Completed SSC with 93.5% (2018)</li>
+              <br />
+              <li>Completed HSC with 88.89% (2019/2020)</li>
+              <br />
+              <li>Pursuing B.E in IT with 9.0 CGPA (2020-2024)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------services--------------------->
+    <div id="services">
+      <div class="container1">
+        <h1>My Workfields</h1>
+        <br /><br />
+        <div class="services_list">
+          <div>
+            <img src="code-solid.svg" />
+            <h2>Web Designing</h2>
+            <br />
+            <p>Having great command over the web designing</p>
+            <br />
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <img src="crop-simple-solid.svg" />
+            <h2>UI/UX Design</h2>
+            <br />
+            <p>Having great command over the ui/ux designing</p>
+            <br />
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <img src="app-store.svg" />
+            <h2>App Designing</h2>
+            <br />
+            <p>Having great command over the app designing</p>
+            <br />
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------portfolio-------------------->
+    <div id="portfolio">
+      <div class="container2">
+        <h1>My Work</h1>
+        <br /><br />
+        <div class="work_projects1">
+          <div>
+            <img src="cake-candles-solid.svg" />
+            <p>Dessert application</p>
+          </div>
+          <div>
+            <img src="dice-solid.svg" />
+            <p>Dice roll game</p>
+          </div>
+        </div>
+        <br /><br /><br /><br />
+        <div class="work_projects2">
+          <div>
+            <img src="spell-check-solid.svg" />
+            <p>Dictionary</p>
+          </div>
+          <div>
+            <img src="bell-concierge-solid.svg" />
+            <p>Tip Time application</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------contact---------------------->
+    <div id="contact">
+      <div class="container3">
+        <h1>Contact</h1>
+        <br /><br />
+        <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible...</p>
+        <br />
+        <form id="myform">
+          <input type="text" placeholder="Name" /><br /><br />
+          <input type="email" placeholder="Email" /><br /><br />
+          <input type="text" placeholder="Subject" /><br /><br />
+          <textarea name="Message" cols="50" rows="10" placeholder="Message"></textarea>
+          <br /><br />
+          <button type="reset">
+            <i><img src="rotate-right-solid.svg" /></i>Reset
+          </button>
+          <button type="submit" onclick="">
+            <i><img src="paper-plane-solid.svg" /></i>Send
+        </form>
+        </button>
+      </div>
+    </div>
+    <!----------------------------footer-------------------------------->
+    <footer>
+      <!-- Grid container -->
+      <div class="container4">
+        <!--Social media -->
+
+        <div class="social_media">
+          <div>
+            <a href="https://www.instagram.com/"><img src="instagram.svg"></a>
+            <a href="https://www.google.com/"><img src="google.svg"></a>
+            <a href="https://www.twitter.com/"><img src="twitter.svg"></a>
+            <a href="https://www.linkedin.com/"><img src="linkedin.svg"></a>
+          </div>
+        </div>
+
+        <div class="footername">
+          <p><strong>Rohan Pawar</strong></p><br>
+        </div>
+
+        <div class="footermessage">
+          <p>A Software Developer building the Software Applications which leads to the success of the overall product</p>
+        </div>
+
+      <!-- Copyright -->
+      <div class="copyrighttext">
+        © 2023 Copyright. Made by 
+        <strong><u>Rohan Pawar</u></strong>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
